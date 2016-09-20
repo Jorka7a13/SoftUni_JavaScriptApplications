@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	    <meta charset="UTF-8">
+	    <title>Problem 2. Poll</title>
+	    <script src="jquery-2.2.1.js"></script>
+	</head>
+	<body>
+		<section>
+			<span>Time:</span>
+			<div id="timer"></div>
+		</section>
+
+		<fieldset>
+			<section class="question">
+				<h3>What is the smallest planet in the Solar System?</h3>
+				<section>
+					<input type="radio" name="question1" value="Earth" id="Earth"/><label for="Earth">Earth</label><br/>
+                    <input type="radio" name="question1" value="Mercury" id="Mercury"/><label for="Mercury">Mercury</label><br/>
+                    <input type="radio" name="question1" value="Uranus" id="Uranus"/><label for="Uranus">Uranus</label><br/>
+                    <input type="radio" name="question1" value="Neptune" id="Neptune"/><label for="Neptune">Neptune</label><br/>
+				</section>
+			</section>
+			<section class="question">
+				<h3>What do you call molten rock before it has erupted?</h3>
+				<section>
+					<input type="radio" name="question2" value="Lava" id="Lava"/><label for="Lava">Lava</label><br/>
+                    <input type="radio" name="question2" value="Volcano" id="Volcano"/><label for="Volcano">Volcano</label><br/>
+                    <input type="radio" name="question2" value="Magma" id="Magma"/><label for="Magma">Magma</label><br/>
+                    <input type="radio" name="question2" value="" id="Misc"/><label for="Misc">Something, something... I needed a fourth answer!</label><br/>
+				</section>
+			</section>
+			<section class="question">
+				<h3>What are female elephants called?</h3>
+				<section>
+					<input type="radio" name="question3" value="Cows" id="Cows"/><label for="Cows">Cows</label><br/>
+                    <input type="radio" name="question3" value="Felephant" id="Felephant"/><label for="Felephant">Felephant</label><br/>
+                    <input type="radio" name="question3" value="Pigs" id="Pigs"/><label for="Pigs">Pigs</label><br/>
+                    <input type="radio" name="question3" value="Brides" id="Brides"/><label for="Brides">Brides</label><br/>
+				</section>
+			</section>
+		</fieldset>
+		<br />
+		<button type="submit">Submit</button>
+
+		<script src="poll.js"></script>	
+	</body>
+</html>
